@@ -1,11 +1,10 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'log4r/date_directory_file_outputter'
 
 Gem::Specification.new do |spec|
   spec.name          = 'log4r-date_directory_file_outputter'
-  spec.version       = Log4r::DateDirectoryFileOutputter::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ['tzmfreedom']
   spec.email         = ['makoto_tajitsu@hotmail.co.jp']
 

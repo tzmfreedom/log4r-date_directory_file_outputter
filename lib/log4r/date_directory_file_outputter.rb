@@ -3,8 +3,6 @@ require 'log4r/staticlogger'
 
 module Log4r
   class DateDirectoryFileOutputter < FileOutputter
-    VERSION = '0.1.0'
-
     def initialize(name, hash = {})
       @file_path_pattern = hash[:file_path] || hash['file_path']
       @file_path = hash[:filename] = hash['filename'] = Time.now.strftime(@file_path_pattern)
