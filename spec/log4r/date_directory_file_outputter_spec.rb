@@ -10,13 +10,13 @@ RSpec.describe Log4r::DateDirectoryFileOutputter do
     }
   }
 
-  it '' do
+  it 'should be directory file path' do
     outputter = described_class.new('logfile', params)
     file_path = outputter.instance_variable_get(:@out).path
     expect(file_path).to eq('/tmp/2018/01/23/request.log')
   end
 
-  it '' do
+  it 'should change directory file path' do
     outputter = described_class.new('logfile', params)
     Timecop.freeze(2018, 1, 24)
     file_path = outputter.instance_variable_get(:@out).path
