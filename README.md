@@ -22,6 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
+require outputter gem
+```ruby
+require 'log4r/date_directory_file_outputter'
+```
+
+setting outputter
 ```yaml
 log4r_config:
 # ...
