@@ -51,7 +51,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/log4r-date_directory_file_outputter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tzmfreedom/log4r-date_directory_file_outputter.
 
 ## License
 
