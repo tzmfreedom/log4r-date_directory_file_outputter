@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tzmfreedom/log4r-date_directory_file_outputter.svg?branch=master)](https://travis-ci.org/tzmfreedom/log4r-date_directory_file_outputter)
+
 # Log4r::DateDirectoryFileOutputter
 
 Log4r Outputter to output log to file in date directory (e.g. /var/log/2018/01/23/request.log)
